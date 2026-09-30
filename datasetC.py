@@ -1,5 +1,6 @@
-# Calculate the overall average fish count
+# I have chosen data set C
 
+# Calculate the overall average fish count
 
 def average_fish_count(fish_counts):
 	"""Display and return the average of the given fish counts."""
@@ -9,4 +10,6 @@ def average_fish_count(fish_counts):
 		average = sum(fish_counts) / len(fish_counts)
 	print(average)
 	return average
+
+# Compare the average fish count between locations
 
