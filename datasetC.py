@@ -13,7 +13,6 @@ def average_fish_count(fish_counts):
 
 # Compare the average fish count between locations
 
-
 def average_fish_count_per_location(location_a, location_b, location_c):
 	"""Return each location's average and display the highest-average location."""
 	if location_a:
@@ -38,3 +37,4 @@ def average_fish_count_per_location(location_a, location_b, location_c):
 
 	return average_a, average_b, average_c
 
+#The result demonstrates that location X has the highest average fish count at X.
